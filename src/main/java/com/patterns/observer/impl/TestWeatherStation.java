@@ -17,5 +17,9 @@ public class TestWeatherStation {
 
         System.out.println("Second change in measurements....");
         weatherData.setMeasurements(1, 2, 3);
+
+        JWeatherData jWeatherData = new JWeatherData();
+        JCurrentConditionsDisplay jCurrentConditionsDisplay = new JCurrentConditionsDisplay(jWeatherData);
+        jWeatherData.setMeasurements(123, 234, 34);
     }
 }
