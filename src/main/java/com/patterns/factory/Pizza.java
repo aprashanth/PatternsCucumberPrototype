@@ -1,5 +1,6 @@
 package com.patterns.factory;
 
+import java.util.ArrayList;
 import java.util.function.Supplier;
 
 /**
@@ -7,23 +8,28 @@ import java.util.function.Supplier;
  */
 public interface Pizza {
 
-
     default void prepare(){
+        System.out.println("Preparing ...");
+        System.out.println("Tossing Dough...");
+        System.out.println("Adding Sauce...");
+        System.out.println("Adding Toppings...");
         System.out.println("Preparing Pizza...");
     }
 
     default void bake(){
-        System.out.println("Baking Pizza...");
+        System.out.println("Bake for 25 mins at 350\"...");
     }
 
     default void cut() {
-        System.out.println("Cutting Pizza...");
+        System.out.println("Cut Pizza into diagonal slices...");
     }
 
     default void box() {
         System.out.println("Boxing Pizza...");
     }
 
+
     public String getDescription();
+
 
 }

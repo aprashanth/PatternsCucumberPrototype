@@ -1,7 +1,7 @@
 package com.patterns.factory.impl;
 
 import com.patterns.factory.Pizza;
-import sun.java2d.pipe.SpanShapeRenderer;
+import com.patterns.factory.PizzaFactory;
 
 import java.util.function.Supplier;
 
@@ -11,13 +11,16 @@ import java.util.function.Supplier;
 public class PizzaStore {
 
 
+    private PizzaFactory pizzaFactory;
+
     public static PizzaStore create(Supplier<PizzaStore> supplier) {
         return supplier.get();
     }
 
     public Pizza orderPizza(String pizzaType){
 
-        Pizza pizza = SimplePizzaFactory.createPizza(pizzaType);
+        //Pizza pizza = SimplePizzaFactory.createPizza(pizzaType);
+        Pizza pizza  = pizzaFactory.createPizza(pizzaType);
         pizza.prepare();
         pizza.bake();
         pizza.cut();
@@ -27,5 +30,9 @@ public class PizzaStore {
 
         return pizza;
 
+    }
+
+    public void setPizzaFactory(PizzaFactory pizzaFactory) {
+        this.pizzaFactory = pizzaFactory;
     }
 }
