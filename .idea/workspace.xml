@@ -1,64 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f894ea0-7524-4406-84d2-571a6a5b4a8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoCheezePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoClamPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoStylePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoVeggiePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYCheezePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYClamPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPepperoniPizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPizzaStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYVeggiePizza.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/PizzaFactory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/TestDecorator.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage$Size.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage$Size.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/CheezePizza.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/CheezePizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ClamPizza.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ClamPizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/CurrentConditionsDisplay.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/CurrentConditionsDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/Duck.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/Duck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ForecastDisplay.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ForecastDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JCurrentConditionsDisplay.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JCurrentConditionsDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JWeatherData.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JWeatherData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/LowerCaseInputStream.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/LowerCaseInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Milk.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Milk.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/MiniDuckSimulator.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/MiniDuckSimulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Mocha.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Mocha.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/ModelDuck.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/intro/impl/ModelDuck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/Observer.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/Observer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/optionals/OptionalExample.class" afterPath="$PROJECT_DIR$/target/classes/com/java/optionals/OptionalExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PepperoniPizza.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PepperoniPizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/Pizza.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/Pizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PizzaStore.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PizzaStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/SimplePizzaFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/SimplePizzaFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Soy.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Soy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/StatisticsDisplay.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/StatisticsDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/streams/Status.class" afterPath="$PROJECT_DIR$/target/classes/com/java/streams/Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/Subject.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/streams/Task.class" afterPath="$PROJECT_DIR$/target/classes/com/java/streams/Task.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/datetime/TestDateTime.class" afterPath="$PROJECT_DIR$/target/classes/com/java/datetime/TestDateTime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/TestDecorator.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/TestDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/javascript/TestJSEngine.class" afterPath="$PROJECT_DIR$/target/classes/com/java/javascript/TestJSEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/lambdas/TestLambdas.class" afterPath="$PROJECT_DIR$/target/classes/com/java/lambdas/TestLambdas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/java/streams/TestStreams.class" afterPath="$PROJECT_DIR$/target/classes/com/java/streams/TestStreams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/TestWeatherStation.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/TestWeatherStation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ThirdPartyDisplay.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ThirdPartyDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/VeggiePizza.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/factory/impl/VeggiePizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/WeatherData.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/observer/impl/WeatherData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Whip.class" afterPath="$PROJECT_DIR$/target/classes/com/patterns/decorator/Whip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java" />
+    <list default="true" id="050cc707-7cbe-49e7-934c-4ebb11655dc9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Cheese.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ChicagoPizzaIngredientFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Clam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Dough.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FreshClam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FrozenClam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Ingredient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MarinaraSauce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MozerellaCheese.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/NYPizzaIngredientFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Pepperoni.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/PizzaIngredientFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/PlumTomatoSauce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ReggianoCheese.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Sauce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThickCrustDough.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThinCrustDough.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Veggies.java" />
+      <change type="MOVED" beforePath="C:\ExperimentalWS\PatternsCucumberPrototype\src\main\java\com\patterns\factory\PizzaFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/method/PizzaFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PatternsCucumberPrototype.iws" />
@@ -73,9 +43,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -84,144 +51,18 @@
     <favorites_list name="PatternsCucumberPrototype" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ChicagoCheezePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoCheezePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5084746">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoPizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPizzaStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheezePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/CheezePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoClamPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoClamPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-              <folding>
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoPepperoniPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPepperoniPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-              <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChicagoStylePizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoStylePizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -231,32 +72,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/PizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/ThirdPartyDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/StatisticsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/ForecastDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/CurrentConditionsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/JWeatherData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/JCurrentConditionsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/TestWeatherStation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/CondimentDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/DarkRoast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/HouseBlend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Espresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Decaf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Mocha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Milk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Whip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/Soy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/TestDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/decorator/LowerCaseInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/PizzaStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/CheezePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoVeggiePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYCheezePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYVeggiePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/VeggiePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoStylePizza.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoCheezePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/VeggiePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ClamPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/method/PizzaFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/PizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Sauce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Clam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Pepperoni.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Veggies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ChicagoPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/NYPizzaIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Dough.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Clam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Sauce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Cheese.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Dough.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThinCrustDough.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThickCrustDough.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/PlumTomatoSauce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MarinaraSauce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FreshClam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FrozenClam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MozerellaCheese.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ReggianoCheese.java" />
       </list>
     </option>
   </component>
@@ -276,11 +142,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="838" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1608" />
+    <option name="height" value="864" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -292,7 +159,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -300,9 +167,10 @@
       <abbreviatePackageNames />
       <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource />
-      <sortByType />
+      <sortByType ProjectPane="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,6 +220,24 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternsCucumberPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternsCucumberPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -391,142 +277,329 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternsCucumberPrototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternsCucumberPrototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternsCucumberPrototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PatternsCucumberPrototype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternsCucumberPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PatternsCucumberPrototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="copyright" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GitHub.appref-ms" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="com.intellij.ide.scratch.NewScratchFileAction" value="JAVA" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.patterns.factory.impl" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.patterns.factory" />
+      <recent name="com.patterns.intro.impl" />
+      <recent name="com" />
+      <recent name="com.patterns.intro" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.patterns.factory.impl" />
+      <recent name="com.patterns.factory.absfac.impl" />
+      <recent name="com.patterns.factory.absfac" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFactory">
-    <configuration default="false" name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/datetime/TestDateTime.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/javascript/TestJSEngine.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/lambdas/TestLambdas.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/optionals/OptionalExample.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/streams/Status.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/streams/Task.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/java/streams/TestStreams.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage$Size.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Beverage.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/LowerCaseInputStream.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Milk.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Mocha.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Soy.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/TestDecorator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/decorator/Whip.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/Pizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/CheezePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ClamPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PepperoniPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/PizzaStore.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/SimplePizzaFactory.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/VeggiePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/intro/impl/Duck.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/intro/impl/MiniDuckSimulator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/intro/impl/ModelDuck.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/Observer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/Subject.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/CurrentConditionsDisplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ForecastDisplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JCurrentConditionsDisplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/JWeatherData.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/StatisticsDisplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/TestWeatherStation.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/ThirdPartyDisplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/observer/impl/WeatherData.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/PatternsCucumberPrototype.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/PizzaFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoCheezePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoClamPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPepperoniPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoStylePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoVeggiePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYCheezePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYClamPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPepperoniPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYVeggiePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/PizzaFactory.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/AbstractPizzaStore.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoCheezePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoClamPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoPepperoniPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoPizzaFactory.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoPizzaStore.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoStylePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/ChicagoVeggiePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/NYCheezePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/NYClamPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/NYPepperoniPizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/NYPizzaStore.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/NYVeggiePizza.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/TestFactory.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestDecorator.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/patterns/factory/impl/TestDecorator.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Application.TestDecorator (1)">
+    <configuration default="false" name="TestJSEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.patterns.intro.*" />
+          <option name="PATTERN" value="com.java.javascript.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="PatternsCucumberPrototype" />
+      <option name="MAIN_CLASS_NAME" value="com.java.javascript.TestJSEngine" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.patterns.intro" />
-      <option name="MAIN_CLASS_NAME" value="com.patterns.intro.RunnerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="PatternsCucumberPrototype" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.intro.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.patterns.intro.impl.MiniDuckSimulator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PatternsCucumberPrototype" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.observer.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.patterns.observer.impl.TestWeatherStation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PatternsCucumberPrototype" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.patterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.patterns.decorator.TestDecorator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PatternsCucumberPrototype" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDecorator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.patterns.factory.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.patterns.factory.impl.TestFactory" />
+      <option name="MAIN_CLASS_NAME" value="com.patterns.factory.impl.TestDecorator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -608,6 +681,25 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -658,38 +750,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -718,37 +778,22 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RunnerTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestFactory" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestJSEngine" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MiniDuckSimulator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestWeatherStation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestDecorator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestDecorator (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestFactory" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RunnerTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestDecorator (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestDecorator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestWeatherStation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MiniDuckSimulator" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestJSEngine" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -756,42 +801,75 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f894ea0-7524-4406-84d2-571a6a5b4a8c" name="Default" comment="" />
-      <created>1445389175371</created>
+      <changelist id="050cc707-7cbe-49e7-934c-4ebb11655dc9" name="Default" comment="" />
+      <created>1444330829718</created>
       <option name="number" value="Default" />
-      <updated>1445389175371</updated>
+      <updated>1444330829718</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="838" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.4575" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31330472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4993498" sideWeight="0.24375" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39921975" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49865952" sideWeight="0.75625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2989276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769832" sideWeight="0.4575" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4993498" sideWeight="0.24375" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39921975" sideWeight="0.4975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4993498" sideWeight="0.75625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -805,197 +883,299 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.37037">
-          <caret line="523" column="20" selection-start-line="523" selection-start-column="20" selection-end-line="523" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/DisplayElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/patterns/intro/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/patterns/intro/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34957626">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <caret line="52" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#201#211#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#630#631#0" expanded="false" />
+            <element signature="e#663#664#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/TestDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/CurrentConditionsDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08050848">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="129" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="129" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/JCurrentConditionsDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/TestWeatherStation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/PizzaFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/observer/impl/JWeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoVeggiePizza.java">
+    <entry file="jar://C:/opt/isv/devtools/jdk1.8.0_45/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
           <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#3747#3748#0" expanded="false" />
+            <element signature="e#3784#3785#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ClamPizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/DarkRoast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Whip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Soy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#224#225#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Decaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#173#174#0" expanded="false" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#141#142#0" expanded="false" />
+            <element signature="e#181#182#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#250#251#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/HouseBlend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#256#257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/CondimentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYCheezePizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/Beverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYClamPizza.java">
+    <entry file="jar://C:/opt/isv/devtools/jdk1.8.0_45/src.zip!/java/io/BufferedOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/opt/isv/devtools/jdk1.8.0_45/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.922414">
+          <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/opt/isv/devtools/jdk1.8.0_45/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/LowerCaseInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYPepperoniPizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/references/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/NYVeggiePizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/references/TestCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PepperoniPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,44 +1183,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/VeggiePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="42" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPepperoniPizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ClamPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoStylePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,76 +1211,234 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/CheezePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/SimplePizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33262712">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoCheezePizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/AbstractPizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/decorator/TestDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/ChicagoClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/impl/TestFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5084746">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/method/PizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/PizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Pepperoni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/Veggies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/NYPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Clam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Sauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Cheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Dough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ChicagoPizzaIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThickCrustDough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ThinCrustDough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/PlumTomatoSauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18888889">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MarinaraSauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2361111">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FreshClam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/FrozenClam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/MozerellaCheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patterns/factory/absfac/impl/ReggianoCheese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2125">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1187,7 +1508,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: info.cukes:cucumber-core:1.1.2</last-edited>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

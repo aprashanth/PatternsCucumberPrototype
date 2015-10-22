@@ -1,7 +1,5 @@
 package com.patterns.factory.impl;
 
-import com.patterns.factory.PizzaFactory;
-
 /**
  * Created by PXV8340 on 10/20/2015.
  */

@@ -1,5 +1,6 @@
-package com.patterns.factory;
+package com.patterns.factory.method;
 
+import com.patterns.factory.Pizza;
 import com.patterns.factory.impl.CheezePizza;
 import com.patterns.factory.impl.ClamPizza;
 import com.patterns.factory.impl.PepperoniPizza;

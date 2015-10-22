@@ -1,7 +1,7 @@
 package com.patterns.factory.impl;
 
 import com.patterns.factory.Pizza;
-import com.patterns.factory.PizzaFactory;
+import com.patterns.factory.method.PizzaFactory;
 
 import java.util.function.Supplier;
 
