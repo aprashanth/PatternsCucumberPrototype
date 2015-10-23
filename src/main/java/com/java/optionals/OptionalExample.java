@@ -12,8 +12,5 @@ public class OptionalExample {
         System.out.println("Fullname is present? " + fullname.isPresent());
         System.out.println(fullname.orElseGet(() -> "[none]"));
         System.out.println(fullname.map(s -> "Hey " + s + "!!").orElse("Hey Stranger!!!!!"));
-
-
-
     }
 }
