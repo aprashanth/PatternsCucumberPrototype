@@ -1,6 +1,7 @@
 package com.patterns.command.impl;
 
 import com.patterns.command.Command;
+import com.patterns.command.vendor.Stereo;
 
 /**
  * Created by PXV8340 on 10/23/2015.
@@ -17,5 +18,12 @@ public class StereoOnWithCDCommand implements Command {
         stereo.on();
         stereo.setCD();
         stereo.setVolume(11);
+    }
+
+    @Override
+    public void undo() {
+
+        stereo.setVolume(0);
+        stereo.off();
     }
 }

@@ -10,4 +10,11 @@ public class NoCommand implements Command {
     public void execute() {
         System.out.println("This button on the remote has not been programmed...");
     }
+
+    @Override
+    public void undo() {
+
+        System.out.println("This button on the remote has not been programmed...");
+    }
+
 }

@@ -1,4 +1,4 @@
-package com.patterns.command.impl;
+package com.patterns.command.vendor;
 
 /**
  * Created by PXV8340 on 10/23/2015.

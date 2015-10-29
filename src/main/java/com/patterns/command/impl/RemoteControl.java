@@ -10,6 +10,7 @@ public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
     final int numberOfOnOffButtonPairs = 7;
+    Command undoCommad;
 
     public RemoteControl(){
         NoCommand noCommand = new NoCommand();
@@ -28,10 +29,16 @@ public class RemoteControl {
 
     public void onButtonPressed(int slotNumber) {
         onCommands[slotNumber].execute();
+        undoCommad = onCommands[slotNumber];
     }
 
     public void offButtonPressed(int slotNumber) {
         offCommands[slotNumber].execute();
+        undoCommad = offCommands[slotNumber];
+    }
+
+    public void undoButtonWasPushed(){
+        this.undoCommad.undo();
     }
 
     @Override
@@ -39,10 +46,10 @@ public class RemoteControl {
         StringBuffer buffer = new StringBuffer();
         buffer.append("###############  Remote Control ###############");
         for (int i = 0; i < numberOfOnOffButtonPairs; i++) {
-            buffer.append("Slot Number: " + i +
+            buffer.append("\nSlot Number: " + i +
                             "\n\t\t onCommand = " + onCommands[i].getClass().getName() +
-                            "\n offCommand = " + offCommands[i].getClass().getName());
-            buffer.append("\n==============================================================================================");
+                            "\n\t\t offCommand = " + offCommands[i].getClass().getName());
+            buffer.append("\n==============================================================================================\n");
         }
         return buffer.toString();
     }
